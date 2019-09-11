@@ -1,0 +1,22 @@
+.example-icon {
+  padding: 0 15px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar-row{
+  a{
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
+}
