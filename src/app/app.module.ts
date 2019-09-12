@@ -11,6 +11,7 @@ import { SkillComponent } from './skill/skill.component';
 import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ProjectComponent } from './project/project.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ExperienceComponent } from './experience/experience.component';
     SkillComponent,
     AboutComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
