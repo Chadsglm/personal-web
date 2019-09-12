@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BannerComponent } from './banner/banner.component';
 import { SkillComponent } from './skill/skill.component';
 import { AboutComponent } from './about/about.component';
+import { EducationComponent } from './education/education.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AboutComponent } from './about/about.component';
     NavBarComponent,
     BannerComponent,
     SkillComponent,
-    AboutComponent
+    AboutComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+.container{
+  text-align: center;
+  margin: 50px 50px;
+  .cards{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #fff;
+    color: #293347;
+    flex-grow: 1;
+    grid-gap: 16px;
+
+    .card {
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}
