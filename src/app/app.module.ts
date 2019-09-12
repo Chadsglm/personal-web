@@ -4,16 +4,20 @@ import { MaterialModule } from './material.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SideBarComponent } from './side-bar/side-bar.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BannerComponent } from './banner/banner.component';
+import { SkillComponent } from './skill/skill.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SideBarComponent,
-    NavBarComponent
+    NavBarComponent,
+    BannerComponent,
+    SkillComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

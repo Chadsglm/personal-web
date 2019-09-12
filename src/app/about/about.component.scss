@@ -1,0 +1,29 @@
+.about{
+  background: linear-gradient(to right top, #360033, #2e295c, #014a7b, #00698c, #0b8793);
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  text-align: center;
+
+  .container {
+    padding: 0 50px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    h1 {
+      font-size: 2rem;
+      line-height: 5.5rem;
+      line-height: 1.125;
+      color: #ffffff
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #ffffff
+    }
+  }
+}

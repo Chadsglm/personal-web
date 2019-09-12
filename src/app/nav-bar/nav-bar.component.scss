@@ -5,18 +5,32 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+mat-toolbar {
+  background: linear-gradient(to left, #360033, #2e295c, #014a7b);
+  background-size: cover;
+}
 
 mat-toolbar-row{
-  a{
+  padding: 0 50px;
+  .nav-bar{
+    color: #ffffff;
+    margin-top: 0px;
+    padding: 0px 15px;
     margin-right: 10px;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
   }
 
-  a:hover {
-    text-decoration: underline;
+  .nav-bar:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
   }
 
-  a:active {
+  a.nav-bar:active {
     text-decoration: underline;
   }
 }
