@@ -1,0 +1,27 @@
+.container{
+  margin: 50px 50px;
+  text-align: center;
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    color: #293347;
+    padding: 1.25rem;
+
+    .card {
+      p {
+        font-size: 18px;
+        margin-bottom: 2em;
+        line-height: 30px;
+      }
+
+      ul{
+        list-style: none;
+        margin-left: 0;
+        margin-top: 0;
+      }
+    }
+  }
+}
