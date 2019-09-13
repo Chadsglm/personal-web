@@ -1,0 +1,31 @@
+.container {
+  background: linear-gradient(to left bottom, #360033, #2e295c, #014a7b, #00698c, #0b8793);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center !important;
+  padding-bottom: 5%;
+
+  h1 {
+  }
+
+  .social-icons{
+    margin: 5% auto;
+    p{
+      text-align: center !important;
+      a{
+        font-size: 1.18rem;
+        color: #fff;
+        border-radius: 100%;
+        margin: 0px 15px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        cursor: pointer;
+        padding: 15px 15px 5px 15px;
+      }
+    }
+  }
+  .copyright{
+    margin-top: 10%;
+    font-size: 1rem;
+  }
+}
